@@ -7,15 +7,15 @@ It simulates realistic instruction flow and memory operations, including handlin
 5-Stage Pipelined Architecture
 Implements standard instruction execution pipeline:
 
-IF (Instruction Fetch)
+1. IF (Instruction Fetch)
 
-ID (Instruction Decode & Register Fetch)
+2. ID (Instruction Decode & Register Fetch)
 
-EX (Execute)
+3. EX (Execute)
 
-MEM (Memory Access)
+4. MEM (Memory Access)
 
-WB (Write Back)
+5. WB (Write Back)
 
 Executes all base 32-bit integer instructions of the RISC-V architecture.
 Includes ALU operations (add, sub, and, or, sll, srl...), branches (beq, bne...), jumps (jal, jalr), and memory access (lw, sw).
